@@ -1,0 +1,41 @@
+* { margin: 0; padding: 0; outline: 0; }
+
+body, html { height: 100%; }
+
+body {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: arial, sans-serif;
+    color: #808080;
+    background: #efefef url(images/body.png) repeat-x 0 0;
+    min-width: 950px;
+}
+
+a { color: #65cbf8; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+a img { border: 0; }
+
+article, aside, details, footer, header, menu, nav, section { display: block; }
+input, textarea, select { font-size: 12px; font-family: arial, sans-serif; }
+textarea { overflow: auto; }
+
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+.left, .alignleft { float: left; display: inline; }
+.right, .alignright { float: right; display: inline; }
+
+
+.shell { margin: 0 auto; width: 950px; }
+
+.header { background: url(images/header.png) repeat-x 0 0; height: 58px; padding: 29px 0 0 0;  }
+
+#logo { width: 171px; float: left; }
+#logo a { height: 28px; display: block; background: url(images/logo.png) no-repeat 0 0; font-size: 0; line-height: 0; text-indent: -4000px; }
+
+#navigation { float: right; padding-top: 8px;  }
+#navigation ul { list-style: none; list-style-position: outside; font-size: 11px; text-transform: uppercase; font-weight: bold; }
+#navigation ul li { float: left; padding: 0 0 0 44px; }
+#navigation ul li a { color: #77777b; }
+#navigation ul li a:hover ,
+#navigation ul li.active a { color: #2497e0; text-decoration: none; }
+
